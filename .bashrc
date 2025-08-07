@@ -52,7 +52,8 @@ export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
 # path
-PATH=$PATH:~/installed/zig/
+PATH=$PATH:~/installed/zig-0.14.1/
+#PATH=$PATH:~/installed/zig-0.13.0/
 PATH=$PATH:~/installed/python/
 PATH=$PATH:~/installed/cmake/bin/
 PATH=$PATH:~/installed/nvim/bin/
