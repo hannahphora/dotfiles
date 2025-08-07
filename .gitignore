@@ -1,5 +1,5 @@
 *
-!.config/**
+!.config/
 !.gitignore
 !.bash_profile
 !.bashrc
