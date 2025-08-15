@@ -52,6 +52,7 @@ export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
 # path
+PATH=$PATH:~/installed/fasmw17332/
 PATH=$PATH:~/installed/zig-0.14.1/
 #PATH=$PATH:~/installed/zig-0.13.0/
 PATH=$PATH:~/installed/python/
