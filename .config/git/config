@@ -1,0 +1,32 @@
+[user]
+	name = Hannah Plowes
+	email = hannahplowes@proton.me
+
+[core]
+	compression = 9
+	whitespace = error
+	preloadindex = true
+
+[advice]
+	addEmptyPathspec = false
+	pushNonFastForward = false
+	statusHints = false
+
+[url "git@github.com:hannahphora/"]
+	insteadOf = "h:"
+
+[url "git@github.com:"]
+	insteadOf = "gh:"
+
+[init]
+	defaultBranch = main
+
+[status]
+	branch = true
+	showStash = true
+	# showUntrackedFiles = all
+
+[diff]
+	context = 3
+	renames = copies
+	interHunkContext = 10
