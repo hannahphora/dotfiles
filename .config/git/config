@@ -30,3 +30,6 @@
 	context = 3
 	renames = copies
 	interHunkContext = 10
+
+[credential]
+	helper = store
