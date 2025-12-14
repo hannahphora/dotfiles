@@ -1,0 +1,55 @@
+{
+    "spacing": 0,
+
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "idle_inhibitor",
+        "cpu",
+        "memory",
+        "pulseaudio",
+        "clock",
+        "tray"
+    ],
+
+    "clock": {
+        "interval": 30,
+        "format": "{:%a, %d %b %Y | %H:%M}",
+        "tooltip": false
+    },
+
+    "cpu": {
+        "interval": 1,
+        "format": "CPU:{usage}%",
+        "on-click": "hyprctl dispatch exec [float\\; size 1610 1050] \"ghostty -e btop\""
+    },
+
+    "memory": {
+        "interval": 1,
+        "format": "Mem:{}%",
+        "on-click": "hyprctl dispatch exec [float\\; size 1610 1050] \"ghostty -e btop\""
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "{volume}%",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon} ",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+
+    "tray": {
+        "spacing": 10
+    }
+}

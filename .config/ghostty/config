@@ -1,0 +1,13 @@
+
+window-decoration = false
+mouse-hide-while-typing = true
+window-padding-balance = true
+window-padding-color = extend
+
+clipboard-read = "allow"
+clipboard-paste-protection = false
+
+theme = catppuccin-mocha.conf
+cursor-style = block
+font-size = 13
+background-opacity = 0.85
