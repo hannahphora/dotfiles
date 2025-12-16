@@ -66,10 +66,3 @@ window#waybar {
     background-color: #6272a4;
     box-shadow: inset 0 -3px #ffffff;
 }
-
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #3b3f51;
-    }
-}
