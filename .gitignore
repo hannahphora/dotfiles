@@ -5,7 +5,6 @@
 !scripts/
 
 !.config/
-!.config/starship.toml
 .config/*
 !.config/niri/
 !.config/qt6ct/
