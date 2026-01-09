@@ -6,7 +6,7 @@
 
 !.config/
 .config/*
-!.config/hypr/
+!.config/niri/
 !.config/qt6ct/
 !.config/qt5ct/
 !.config/fish/
@@ -17,3 +17,5 @@
 !.config/ghostty/
 !.config/mako/
 !.config/git/
+!.config/zathura/
+!.config/starship.toml

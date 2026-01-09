@@ -7,7 +7,8 @@ window-padding-color = extend
 clipboard-read = "allow"
 clipboard-paste-protection = false
 
-theme = catppuccin-mocha.conf
+theme = everforest-dark-hard.ghostty
 cursor-style = block
-font-size = 13
-background-opacity = 0.85
+font-family = "Iosevka Nerd Font Mono"
+font-size = 14
+background-opacity = 0.75

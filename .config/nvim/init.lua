@@ -17,7 +17,6 @@ o.number = true
 o.relativenumber = true
 o.ttyfast = true
 o.mouse = "a"
-o.clipboard = "unnamedplus"
 o.wildmode = { "longest", "list" }
 
 local g = vim.g

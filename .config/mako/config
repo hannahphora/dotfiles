@@ -1,20 +1,17 @@
 sort=-time
 layer=overlay
 
-width=300
-height=110
+width=350
+height=200
 border-size=2
-border-radius=15
+border-radius=4
+padding=6
+font=Iosevka Nerd Font Mono 13
 max-icon-size=64
 
 default-timeout=5000
 ignore-timeout=1
 
-background-color=#1e1e2e
-text-color=#cdd6f4
-border-color=#b4befe
-progress-color=over #313244
-
-[urgency=high]
-border-color=#fab387
-default-timeout=0
+background-color=#3C4841
+text-color=#83C092
+border-color=#A7C080
