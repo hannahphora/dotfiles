@@ -5,6 +5,7 @@
 !scripts/
 
 !.config/
+!.config/starship.toml
 .config/*
 !.config/niri/
 !.config/qt6ct/
@@ -18,4 +19,3 @@
 !.config/mako/
 !.config/git/
 !.config/zathura/
-!.config/starship.toml
